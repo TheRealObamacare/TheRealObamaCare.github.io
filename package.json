@@ -2,6 +2,7 @@
 	"name": "react-tailwindcss-portfolio",
 	"version": "0.1.0",
 	"private": true,
+	"homepage": "https://therealobamacare.github.io/",
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.16.5",
 		"@testing-library/react": "^13.4.0",
@@ -23,7 +24,9 @@
 		"build": "yarn run react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"build:css": "postcss src/css/tailwind.css -o src/css/main.css"
+		"build:css": "postcss src/css/tailwind.css -o src/css/main.css",
+		"predeploy": "yarn run build",
+		"deploy": "gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": [
@@ -48,6 +51,7 @@
 		"@testing-library/dom": "^8.20.0",
 		"autoprefixer": "^10.4.7",
 		"postcss": "^8.4.21",
-		"tailwindcss": "^3.0.24"
+		"tailwindcss": "^3.0.24",
+		"gh-pages": "^6.1.0"
 	}
 }
