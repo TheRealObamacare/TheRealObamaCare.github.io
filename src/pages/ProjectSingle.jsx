@@ -12,13 +12,26 @@ const ProjectSingle = () => {
 	console.log("RAW URL:", window.location.href);
 	console.log("URL PATHNAME:", window.location.pathname);
 	
-	// Extract slug manually as a fallback
-	const pathParts = window.location.pathname.split('/');
-	const manualSlug = pathParts[pathParts.length - 1];
+	// Extract slug from URL - handle both HashRouter and BrowserRouter paths
+	// For HashRouter: /#/projects/slug or /#/project/slug
+	// For BrowserRouter: /projects/slug or /project/slug
+	let manualSlug = '';
+	if (window.location.hash) {
+		// HashRouter - extract from hash
+		const hashPath = window.location.hash.substring(1); // remove the # character
+		const hashParts = hashPath.split('/');
+		manualSlug = hashParts[hashParts.length - 1];
+		console.log("Hash router path parts:", hashParts);
+	} else {
+		// BrowserRouter - extract from pathname
+		const pathParts = window.location.pathname.split('/');
+		manualSlug = pathParts[pathParts.length - 1];
+	}
 	console.log("Manually extracted slug:", manualSlug);
 	
 	// Try both the params and manual extraction
-	const slug = params?.slug || manualSlug || '';
+	// Check for both 'slug' and 'projectPath' params to handle both router configurations
+	const slug = params?.slug || params?.projectPath || manualSlug || '';
 	console.log("FINAL SLUG VALUE:", slug);
 	
 	const { singleProjectData } = useContext(SingleProjectContext);
