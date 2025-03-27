@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "https://therealobamacare.github.io/static/css/main.20dc9047.chunk.css",
+    "main.css": "https://therealobamacare.github.io/static/css/main.e91b6df2.chunk.css",
     "main.js": "https://therealobamacare.github.io/static/js/main.9fe8cd98.chunk.js",
     "main.js.map": "https://therealobamacare.github.io/static/js/main.9fe8cd98.chunk.js.map",
     "runtime-main.js": "https://therealobamacare.github.io/static/js/runtime-main.ea2e4829.js",
     "runtime-main.js.map": "https://therealobamacare.github.io/static/js/runtime-main.ea2e4829.js.map",
-    "static/js/2.c6a1d8f6.chunk.js": "https://therealobamacare.github.io/static/js/2.c6a1d8f6.chunk.js",
-    "static/js/2.c6a1d8f6.chunk.js.map": "https://therealobamacare.github.io/static/js/2.c6a1d8f6.chunk.js.map",
+    "static/js/2.4787cdb9.chunk.js": "https://therealobamacare.github.io/static/js/2.4787cdb9.chunk.js",
+    "static/js/2.4787cdb9.chunk.js.map": "https://therealobamacare.github.io/static/js/2.4787cdb9.chunk.js.map",
     "index.html": "https://therealobamacare.github.io/index.html",
-    "static/css/main.20dc9047.chunk.css.map": "https://therealobamacare.github.io/static/css/main.20dc9047.chunk.css.map",
-    "static/js/2.c6a1d8f6.chunk.js.LICENSE.txt": "https://therealobamacare.github.io/static/js/2.c6a1d8f6.chunk.js.LICENSE.txt",
+    "static/css/main.e91b6df2.chunk.css.map": "https://therealobamacare.github.io/static/css/main.e91b6df2.chunk.css.map",
+    "static/js/2.4787cdb9.chunk.js.LICENSE.txt": "https://therealobamacare.github.io/static/js/2.4787cdb9.chunk.js.LICENSE.txt",
     "static/media/App.css": "https://therealobamacare.github.io/static/media/GeneralSans-VariableItalic.e4ae865b.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.ea2e4829.js",
-    "static/js/2.c6a1d8f6.chunk.js",
-    "static/css/main.20dc9047.chunk.css",
+    "static/js/2.4787cdb9.chunk.js",
+    "static/css/main.e91b6df2.chunk.css",
     "static/js/main.9fe8cd98.chunk.js"
   ]
 }
